@@ -92,6 +92,8 @@ a{color:inherit;text-decoration:none}
 .brand{display:flex;align-items:center;gap:12px;color:var(--ink)}
 .brand__logo{height:44px;width:auto;display:block}
 .footer__logo{height:44px;width:auto;display:block}
+.hero__logo{height:140px;width:auto;display:block;margin-bottom:32px;animation:heroLogoIn .9s var(--ease) both}
+@keyframes heroLogoIn{from{opacity:0;transform:translateY(-12px)}to{opacity:1;transform:none}}
 .brand__mark{color:var(--gold);display:grid;place-items:center}
 .brand__text{display:flex;flex-direction:column;line-height:1.05}
 .brand__text b{font-family:var(--font-display);font-weight:800;letter-spacing:.18em;font-size:18px}
