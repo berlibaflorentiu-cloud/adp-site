@@ -344,3 +344,6 @@ a{color:inherit;text-decoration:none}
 .pub-grid{margin-top:48px;min-height:180px;display:flex;align-items:center;justify-content:center}
 .pub-empty{display:flex;flex-direction:column;align-items:center;gap:18px;color:var(--muted-2);font-size:14px;text-align:center}
 .pub-empty svg{width:52px;height:52px;opacity:.35}
+
+/* =================== INNER PAGES =================== */
+.page-top{height:90px}
