@@ -328,3 +328,19 @@ a{color:inherit;text-decoration:none}
   .cards{grid-template-columns:1fr}
   .strip__inner{grid-template-columns:1fr}
 }
+
+/* =================== DOCS (Acte) =================== */
+.docs__grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:48px}
+.doc-card{display:flex;align-items:center;gap:18px;background:rgba(255,255,255,.04);border:1px solid var(--line-soft);border-radius:12px;padding:22px 24px;transition:border-color .25s,background .25s;cursor:default}
+.doc-card:hover{border-color:rgba(200,169,81,.35);background:rgba(200,169,81,.05)}
+.doc-card__ic{width:36px;height:36px;flex-shrink:0;color:var(--gold);opacity:.8}
+.doc-card__body{flex:1}
+.doc-card__body b{display:block;font-size:14px;font-weight:600;color:var(--white);margin-bottom:3px}
+.doc-card__body span{font-size:12.5px;color:var(--muted-2)}
+.doc-badge{background:rgba(200,169,81,.15);color:var(--gold);font-size:10px;font-weight:700;letter-spacing:.08em;padding:3px 8px;border-radius:4px;flex-shrink:0}
+@media (max-width:760px){.docs__grid{grid-template-columns:1fr}}
+
+/* =================== PUB (Revista / Publicații) =================== */
+.pub-grid{margin-top:48px;min-height:180px;display:flex;align-items:center;justify-content:center}
+.pub-empty{display:flex;flex-direction:column;align-items:center;gap:18px;color:var(--muted-2);font-size:14px;text-align:center}
+.pub-empty svg{width:52px;height:52px;opacity:.35}
